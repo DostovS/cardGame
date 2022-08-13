@@ -19,8 +19,11 @@ body {
   width: 480px;
   perspective: 1000;
 }
+h1 {
+  color: rgb(23, 214, 23);
+}
 .card {
-  border: 3px solid black;
+  border: 3px outset rgb(15, 16, 121);
   border-radius: 5px;
   cursor: pointer;
   position: relative;
@@ -36,7 +39,9 @@ body {
 }
 .card .front,
 .card .back {
-  background-color: #fff;
+  background-color: rgb(22, 25, 203);
+  color: #fff;
+  font-size: 20px;
   backface-visibility: hidden;
   display: flex;
   align-items: center;
@@ -57,4 +62,5 @@ body {
 }
 .card i {
   font-size: 30px;
+  color: #fff;
 }
